@@ -240,6 +240,15 @@
 					"bounce": "none"
 				}
 			}
+		},
+		{
+			"path": "pages/ranking/Depositsrank",
+			"style": {
+				"navigationBarTitleText": "存款排名",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
 		}
 	],
 	"globalStyle": {
@@ -259,18 +268,18 @@
 				"selectedIconPath": "static/imgs/index_active.png",
 				"text": "首页"
 			},
-			// {
-			// 	"pagePath": "pages/ranking/ranking",
-			// 	"iconPath": "static/imgs/ranking.png",
-			// 	"selectedIconPath": "static/imgs/ranking_active.png",
-			// 	"text": "排名"
-			// },
-			// {
-			// 	"pagePath": "pages/statistics/statistics",
-			// 	"iconPath": "static/imgs/statistics.png",
-			// 	"selectedIconPath": "static/imgs/statistics_active.png",
-			// 	"text": "统计"
-			// },
+			{
+				"pagePath": "pages/ranking/ranking",
+				"iconPath": "static/imgs/ranking.png",
+				"selectedIconPath": "static/imgs/ranking_active.png",
+				"text": "排名"
+			},
+			{
+				"pagePath": "pages/statistics/statistics",
+				"iconPath": "static/imgs/statistics.png",
+				"selectedIconPath": "static/imgs/statistics_active.png",
+				"text": "统计"
+			},
 			{
 				"pagePath": "pages/my/my",
 				"iconPath": "static/imgs/my.png",
